@@ -1,3 +1,4 @@
+
 # Testing Directives
 
 directivesApp = angular.module('directivesApp', [])
@@ -11,7 +12,7 @@ directivesApp.directive 'welcome', ->
 describe 'great quotes', ->
   it 'Replaces the element with the appropriate content', ->
     module('directivesApp')
-    
+
     inject ($compile, $rootScope) ->
       # Compile a piece of HTML containing the directive
       element = $compile("<welcome></welcome>")($rootScope)
