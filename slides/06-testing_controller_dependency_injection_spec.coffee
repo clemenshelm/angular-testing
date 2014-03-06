@@ -1,6 +1,6 @@
 # Testing Controllers in Angular
 
-myApp = angular.module('myApp',[])
+myApp = angular.module('myApp', [])
 
 myApp.controller "PasswordController", ($scope) ->
   $scope.password = ''
